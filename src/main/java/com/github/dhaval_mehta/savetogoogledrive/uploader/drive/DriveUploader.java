@@ -56,7 +56,7 @@ abstract class DriveUploader implements Uploader {
 	}
 
 	private DriveUploader() {
-		chunkSize = 31457280;
+		chunkSize = 9 * 1024 * 1024;
 		uploadInformation = new UploadInformation();
 		uploadInformation.setUploadStatus(UploadStatus.waiting);
 
