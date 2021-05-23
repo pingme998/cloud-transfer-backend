@@ -88,7 +88,7 @@ This application uses several open source packages to run.
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy=https://github.com/pingme998/cloud-transfer-backend)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/pingme998/cloud-transfer-backend)
 
 ## Bug Report
 
