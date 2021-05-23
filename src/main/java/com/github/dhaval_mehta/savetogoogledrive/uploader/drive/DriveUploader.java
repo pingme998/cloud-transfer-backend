@@ -33,7 +33,7 @@ abstract class DriveUploader implements Uploader {
 		}
 	}
 
-	final int chunkSize;
+	final int chunkSize = 10 * 1024 * 1024;
 	protected User user;
 	DownloadFileInfo downloadFileInfo;
 	UploadInformation uploadInformation;
